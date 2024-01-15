@@ -61,14 +61,14 @@ Plot a line chart with all the inertia values computed with the different values
 
 Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
 
-Initialize the K-means model with the best value for k.
-Fit the K-means model using the PCA data.
-Predict the clusters to group the cryptocurrencies using the PCA data.
-Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
-Create a scatter plot using hvPlot as follows:
-Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
-Color the graph points with the labels found using K-means.
-Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+-Initialize the K-means model with the best value for k.
+-Fit the K-means model using the PCA data.
+-Predict the clusters to group the cryptocurrencies using the PCA data.
+-Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
+-Create a scatter plot using hvPlot as follows:
+-Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
+-Color the graph points with the labels found using K-means.
+-Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 # Visualize and Compare the Results
 
