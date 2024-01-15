@@ -76,6 +76,9 @@ Create a composite plot by using hvPlot and the plus sign (+) operator to compar
 
 Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data. 
 
+![Alt text](image-9.png)
+
+![Alt text](image-10.png)
 
 
 
