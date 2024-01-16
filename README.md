@@ -43,7 +43,7 @@ Create a scatter plot using hvPlot as follows:
     Set the x-axis as "PC1" and the y-axis as "PC2".
 
     Color the graph points with the labels found using K-means.
-    
+
     Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 # Optimize the Clusters with Principal Component Analysis
@@ -95,8 +95,11 @@ Create a composite plot by using hvPlot and the plus sign (+) operator to compar
 
 Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data. 
 
+
+Scaled data graphs
 ![Alt text](image-9.png)
 
+PCA data graphs
 ![Alt text](image-10.png)
 
 
