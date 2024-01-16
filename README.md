@@ -36,6 +36,8 @@ Scaled data graphs
 
 ![Alt text](image-9.png)
 
+
+
 PCA data graphs
 
 ![Alt text](image-10.png)
