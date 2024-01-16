@@ -40,11 +40,11 @@ Create a copy of the original data and add a new column with the predicted clust
 
 Create a scatter plot using hvPlot as follows:
 
-    Set the x-axis as "PC1" and the y-axis as "PC2".
+-Set the x-axis as "PC1" and the y-axis as "PC2".
 
-    Color the graph points with the labels found using K-means.
+-Color the graph points with the labels found using K-means.
 
-    Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+-Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 # Optimize the Clusters with Principal Component Analysis
 
@@ -81,20 +81,15 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 
 -Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
 
--Create a scatter plot using hvPlot as follows:
+Create a scatter plot using hvPlot as follows:
 
-    -Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
+-Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
 
-    -Color the graph points with the labels found using K-means.
+-Color the graph points with the labels found using K-means.
 
-    -Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+-Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 # Visualize and Compare the Results
-
-Create a composite plot by using hvPlot and the plus sign (+) operator to compare the elbow curve that you created from the original data with the one that you created from the PCA data. 
-
-Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data. 
-
 
 Scaled data graphs
 ![Alt text](image-9.png)
